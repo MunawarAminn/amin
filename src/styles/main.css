@@ -63,6 +63,10 @@
 		text-transform: uppercase;
 	}
 
+	.nav.open {
+		display: block;
+	}
+
 	.nav-list {
 		width: 70%;
 		padding: 0;

@@ -28,7 +28,7 @@ import ('../public/data/DATA.json').then(({ default: jsonData }) => {
 const menu = document.querySelector('#menu');
 const hero = document.querySelector('.hero');
 const main = document.querySelector('main');
-const drawer = document.querySelector('#drawer');
+const drawer = document.querySelector('.nav');
 
 menu.addEventListener('click', function (event) {
     drawer.classList.toggle('open');
