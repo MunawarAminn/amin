@@ -319,6 +319,9 @@
 		.nav {
 			display: none;
 		}
+		.logo{
+			display: none !important;
+		}
 		.navresto {
 			z-index: 10;
 			background-color: #fff;
